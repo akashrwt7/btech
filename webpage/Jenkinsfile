@@ -7,7 +7,7 @@ pipeline {
    stages {
        stage('SCM CheckOut'){
           steps {
-            git 'https://github.com/akashrwt7/TestApp'
+            git 'https://github.com/akashrwt7/btech'
           }
           }
       stage('Compile-Package'){
